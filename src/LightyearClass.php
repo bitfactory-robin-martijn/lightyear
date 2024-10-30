@@ -2,6 +2,4 @@
 
 namespace Bitfactory\Lightyear;
 
-class LightyearClass
-{
-}
+class LightyearClass {}
