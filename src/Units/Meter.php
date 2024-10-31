@@ -22,7 +22,7 @@ class Meter extends BaseUnit
     public function toHumanReadableString(float $value, bool $short = false): string
     {
         if ($value >= 1000) {
-            return (new Kilometer())->toHumanReadableString($value / 1000, $short);
+            return (new Kilometer)->toHumanReadableString($value / 1000, $short);
         }
 
         return parent::toHumanReadableString($value, $short);

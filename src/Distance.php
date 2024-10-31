@@ -2,11 +2,11 @@
 
 namespace Bitfactory\Lightyear;
 
+use Bitfactory\Lightyear\Units\BaseUnit;
 use Bitfactory\Lightyear\Units\Kilometer;
 use Bitfactory\Lightyear\Units\Meter;
 use Bitfactory\Lightyear\Units\Mile;
 use Bitfactory\Lightyear\Units\NauticalMile;
-use Bitfactory\Lightyear\Units\BaseUnit;
 use Bitfactory\Lightyear\Units\UnitFactory;
 
 class Distance
